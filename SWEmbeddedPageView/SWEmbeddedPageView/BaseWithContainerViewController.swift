@@ -44,8 +44,8 @@ class MyPageViewController: UIPageViewController {
 		vc.view.backgroundColor = color
 		
 		// uncomment for simple rounded corners on the "pages"
-//		vc.view.clipsToBounds = true
-//		vc.view.layer.cornerRadius = 20.0
+		vc.view.clipsToBounds = true
+		vc.view.layer.cornerRadius = 20.0
 
 		return vc
 		
